@@ -1,6 +1,6 @@
 # Info on dynamic form
 
-The dynamic project form has been made using react-bootstrap as the stying library and react hook form for validation.
+The dynamic project form has been made using react-bootstrap as the styling library and react hook form for validation.
 
 # Getting Started with Create React App
 
