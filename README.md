@@ -1,4 +1,4 @@
-# Info on dynamic form
+# Info on Dynamic Form
 
 The dynamic project form has been made using react-bootstrap as the styling library and react hook form for validation.
 
