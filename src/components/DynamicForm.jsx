@@ -19,7 +19,6 @@ const DynamicForm = () => {
   const formFields = () => {
     for (let key in formData) {
       if (Array.isArray(formData[key])) {
-        console.log(formData[key]);
         return formData[key].map((field) => {
           return getFormComponent(field);
         });
@@ -28,7 +27,6 @@ const DynamicForm = () => {
   };
 
   const onSubmit = (data) => {
-    console.log(data, errors);
     setFormState1({ ...formState1, ...data });
     setFormState1({});
   };

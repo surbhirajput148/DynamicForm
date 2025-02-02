@@ -13,12 +13,6 @@ const InputComponent = (props) => {
   });
 
   const displayErrMsg = async () => {
-    console.log(
-      props.errors,
-      props.name,
-      props?.errors[props?.name] !== undefined
-    );
-
     (await props?.errors[props?.name]) !== undefined
       ? setErrMsg(props.errorMsg)
       : setErrMsg("");
